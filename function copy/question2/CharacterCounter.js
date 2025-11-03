@@ -17,3 +17,4 @@ const validateWord=(s)=>
   return frequencies.every(freq=>freq===frequencies[0]);
 }
 console.log(validateWord("aabb"));
+console.log(validateWord("Aabb"));
